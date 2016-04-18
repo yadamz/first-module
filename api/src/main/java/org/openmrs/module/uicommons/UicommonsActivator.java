@@ -21,4 +21,9 @@ import org.openmrs.module.BaseModuleActivator;
  */
 public class UicommonsActivator extends BaseModuleActivator {
 	
+@Override
+    public void started() {
+        System.out.println(“Checking if running the expected module…………………………………….”);
+    }
+	
 }
